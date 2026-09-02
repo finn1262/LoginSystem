@@ -2,12 +2,6 @@
 
 using namespace std;
 
-void loginopt(){
-    cout << endl;
-    cout << "Access Granted" << endl;
-    cout << "Good Day Admin" << endl;
-}
-
 void line(){
     cout << "-------------------------------";
 }
@@ -34,13 +28,19 @@ int main()
     cout << endl;
 
     if(username == "Admin" && password == "Admin2020") {
-            loginopt();
+            cout << endl;
+            cout << "Access Granted" << endl;
+            cout << "Good Day " << username << endl;
      }
     else if(username == "Secretary" && password == "Sec2020") {
-            loginopt();
+            cout << endl;
+            cout << "Access Granted" << endl;
+            cout << "Good Day " << username << endl;
     }
     else if(username == "Guest" && password == "Guest2020") {
-            loginopt();
+            cout << endl;
+            cout << "Access Granted" << endl;
+            cout << "Good Day " << username << endl;
     }
     else{
             cout << "ACCESS Denied, try again....";
